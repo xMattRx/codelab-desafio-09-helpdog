@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+  --pink: #FFC6DA;
+  --yellow: #FFF1A6;
+  --blue: #BAD8EB;
+  --black: #000000;
+  --white: #FFFFFF;
+  --blue-20: #124C5F;
+  --pangolin: "Pangolin";
+  --roboto: "Roboto";
+}
+
+body {
+  overflow-x: hidden !important;
+}
+
+* {
+  box-sizing: border-box;
+  color: var(--dark-20);
+  font-family: var(--roboto), sans-serif;
+  margin: 0;
+  padding: 0;
+}
